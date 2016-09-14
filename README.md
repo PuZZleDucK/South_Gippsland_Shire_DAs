@@ -1,1 +1,9 @@
-This is a scraper that runs on [Morph](https://morph.io). To get started [see the documentation](https://morph.io/documentation)
+# South Gippsland Shire Council Scraper
+
+This site is a typical .NET site involves the followings.
+* Cookie - Yes
+* Pagnation - Not yet supported
+* Javascript - No
+* Ajax - No
+* JSON - No
+* Structured HTML - Reasonable
