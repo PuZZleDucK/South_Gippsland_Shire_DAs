@@ -10,7 +10,7 @@ def scrape_details(detail_page)
   info_url = 'https://eservices.southgippsland.vic.gov.au/ePathway/ePathProd/Web/GeneralEnquiry/EnquiryDetailView.aspx?Id='
 # Pick out xpaths for data
   council_reference = detail_page.at('//div[@class="fields"]/div[@class="field"][3]/td').text
-  address           = detail_page.at('//div[@class="fields"]/div[@class="field"][4]/td').text
+  address           = detail_page.at('//div[@class="fields"]/div[@class="field"][4]/td').text.gsub('  ', ', ')
   description       = detail_page.at('//div[@class="fields"]/div[@class="field"][2]/td').text
   info_url          = info_url << detail_page.at('//div[@id="ctl00_MainBodyContent_group_425"]/div[@class="fields"]/div[@class="field"]/td').text
 
