@@ -1,5 +1,8 @@
 # South Gippsland Shire Council Scraper
 
+[![Build Status](https://semaphoreci.com/api/v1/PuZZleDucK/south_gippsland_shire_das/branches/master/badge.svg)](https://semaphoreci.com/PuZZleDucK/south_gippsland_shire_das)
+
+
 ### Setup scraper
 
 ```bash
